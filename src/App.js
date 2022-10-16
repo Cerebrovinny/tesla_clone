@@ -18,10 +18,10 @@ function App() {
                         {isMenuOpen && <Menu />}
                         <HeaderBlock />
                     </Route>
+                    <Route exact path='/login'>
+                        <Login />
+                    </Route>
                 </Switch>
-                <Route exact path='/login'>
-                    <Login />
-                </Route>
             </div>
         </Router>
 );
